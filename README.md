@@ -60,7 +60,7 @@ Diagram and step-by-step description of the flow of our solution:
 
 ### How to run the project
 
-[instructions ](./docs/Netcon Setup.pdf)
+Please read [instructions](./docs/NetconSetup.pdf)
 
 To Run the project you need to Create tasks in **Task Scheduler** to detect network changes.
 
