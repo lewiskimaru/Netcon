@@ -20,6 +20,7 @@
   - [License](#license)
   - [Acknowledgments](#acknowledgments)
 
+---
 ## Project summary
 
 ### Overview
@@ -42,14 +43,12 @@ More detail is available in our [description document](./docs/DESCRIPTION.md).
 ## Technology implementation
 
 ### stack
-- [IBM Natural Language Understanding](https://cloud.ibm.com/catalog/services/natural-language-understanding) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Assistant](https://cloud.ibm.com/catalog/services/watson-assistant) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Discovery](https://cloud.ibm.com/catalog/services/watson-discovery) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Speech to Text](https://cloud.ibm.com/catalog/services/speech-to-text) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- [Watson Text to Speech](https://cloud.ibm.com/catalog/services/text-to-speech) - WHERE AND HOW THIS IS USED IN OUR SOLUTION
-- List any additional [IBM AI services](https://cloud.ibm.com/catalog?category=ai#services) used or remove this line
-
+- Python 3.8
+- Email
+- Windows batch
 ### Other systems used
+- Windows Task Scheduler
+- Command Prompt
 
 ### Solution architecture
 
@@ -60,8 +59,18 @@ Diagram and step-by-step description of the flow of our solution:
 ## Additional details
 
 ### How to run the project
-
-INSTRUCTIONS: In this section you add the instructions to run your project on your local machine for development and testing purposes. You can also add instructions on how to deploy the project in production.
+To Run the project you need to Create tasks in **Task Scheduler** to detect network changes.
+**Network disconnected**
+- Trigger - Network profile 10001
+- Run con-net
+**Network Connected**
+- Trigger - Network profile 10000
+- Condition - Networks
+- Run setuping
+**Network state change**
+- Trigger - Network profile 4004
+- Condition - unidentified network
+- Run setuping
 
 ### Live demo
 
