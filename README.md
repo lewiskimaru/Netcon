@@ -13,7 +13,7 @@
 - [Additional details](#additional-details)
   - [How to run the project](#how-to-run-the-project)
   - [Live demo](#live-demo)
-- [About this template](#about-this-template)
+- [About this project](#about-this-template)
   - [Contributing](#contributing)
   - [Versioning](#versioning)
   - [Authors](#authors)
@@ -75,17 +75,11 @@ See our [description document](./docs/DESCRIPTION.md) for log in credentials.
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests to us.
 
-### Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
 ### Authors
 
-<a href="https://github.com/Call-for-Code/Project-Sample/graphs/contributors">
-  <img src="https://contributors-img.web.app/image?repo=Call-for-Code/Project-Sample" />
+<a href="https://github.com/lewiskimaru/Netcon/contributors">
+  <img src="https://contributors-img.web.app/image?repo=Netcon" />
 </a>
-
-- **Billie Thompson** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
 
 ### License
 
