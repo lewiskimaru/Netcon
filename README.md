@@ -58,30 +58,26 @@ Diagram and step-by-step description of the flow of our solution:
 
 ## Additional details
 
-### How to run the project
+### [How to run the project ](./docs/Netcon Setup.pdf)
 To Run the project you need to Create tasks in **Task Scheduler** to detect network changes.
 
 **Network disconnected**
 
 - Trigger - Network profile 10001
 - Run con-net
-- 
+  
 **Network Connected**
   
 - Trigger - Network profile 10000
 - Condition - Networks
 - Run setuping
-- 
+  
 **Network state change**
   
 - Trigger - Network profile 4004
 - Condition - unidentified network
 - Run setuping
-
-### Live demo
-
-See our [description document](./docs/DESCRIPTION.md) for log in credentials.
-
+  
 ---
 
 ## About this template
