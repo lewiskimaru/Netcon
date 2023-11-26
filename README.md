@@ -12,7 +12,7 @@
   - [Solution architecture](#solution-architecture)
 - [Additional details](#additional-details)
   - [How to run the project](#how-to-run-the-project)
-  - [Live demo](#live-demo)
+  - 
 - [About this project](#about-this-template)
   - [Contributing](#contributing)
   - [Versioning](#versioning)
@@ -58,7 +58,10 @@ Diagram and step-by-step description of the flow of our solution:
 
 ## Additional details
 
-### [How to run the project ](./docs/Netcon Setup.pdf)
+### How to run the project
+
+[instructions ](./docs/Netcon Setup.pdf)
+
 To Run the project you need to Create tasks in **Task Scheduler** to detect network changes.
 
 **Network disconnected**
